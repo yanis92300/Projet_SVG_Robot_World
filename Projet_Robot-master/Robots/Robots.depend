@@ -1,0 +1,86 @@
+# depslib dependency file v1.0
+1573477786 source:c:\users\tonio\desktop\sources\robots\elements\monde.cpp
+	"Monde.h"
+
+1573477786 c:\users\tonio\desktop\sources\robots\elements\monde.h
+
+1539877306 source:c:\users\tonio\desktop\sources\robots\geometrie\cadre.cpp
+	"cadre.h"
+	<iostream>
+
+1539877486 c:\users\tonio\desktop\sources\robots\geometrie\cadre.h
+	"coords.h"
+
+1539942332 c:\users\tonio\desktop\sources\robots\geometrie\coords.h
+
+1573490322 source:c:\users\tonio\desktop\sources\robots\elements\base.cpp
+	"Base.h"
+
+1573488765 c:\users\tonio\desktop\sources\robots\elements\base.h
+	"../geometrie/coords.h"
+	<string>
+	<vector>
+
+1514140574 source:c:\users\tonio\desktop\sources\robots\main.cpp
+	<iostream>
+
+1539942582 source:c:\users\tonio\desktop\sources\robots\geometrie\coords.cpp
+	"coords.h"
+	"../util/util.h"
+	<iostream>
+
+1539936232 c:\users\tonio\desktop\sources\robots\util\util.h
+	<string>
+
+1539890822 source:c:\users\tonio\desktop\sources\robots\geometrie\matrice.cpp
+	"matrice.h"
+	"cmath"
+
+1539889798 c:\users\tonio\desktop\sources\robots\geometrie\matrice.h
+	"coords.h"
+	<array>
+
+1539890684 source:c:\users\tonio\desktop\sources\robots\geometrie\transformation.cpp
+	"transformation.h"
+	<cmath>
+
+1539867550 c:\users\tonio\desktop\sources\robots\geometrie\transformation.h
+	"coords.h"
+	"matrice.h"
+
+1573488578 source:c:\users\tonio\desktop\sources\robots\svg\svgfile.cpp
+	<iostream>
+	<sstream>
+
+1539939578 source:c:\users\tonio\desktop\sources\robots\util\util.cpp
+	"util.h"
+	<random>
+	<ctime>
+	<iostream>
+	<cstdio>
+	<streambuf>
+	<vector>
+	<cstdlib>
+	<cstdio>
+	<algorithm>
+	<cstring>
+	<iostream>
+	<thread>
+	"../util/util.h"
+	<windows.h>
+
+1573486901 source:c:\users\tonio\desktop\sources\robots\graphisme\couleur.cpp
+	"couleur.h"
+	"../svg/svgfile.h"
+	"../util/util.h"
+	<iostream>
+
+1539941284 c:\users\tonio\desktop\sources\robots\graphisme\couleur.h
+	<string>
+	<cstdint>
+
+1573488249 c:\users\tonio\desktop\sources\robots\svg\svgfile.h
+	<string>
+	<fstream>
+	<set>
+

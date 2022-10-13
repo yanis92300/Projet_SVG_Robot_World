@@ -1,0 +1,54 @@
+goto rack
+	@bot
+		move +5
+		move +5
+		move +5
+	@torso
+		move -10
+	        move -10
+		move -10
+	@bot
+		move +5
+		move +5
+		move +5
+	@torso
+		move -5
+		move -5
+	@head
+		move 100
+		rotate -20
+take box
+	@arm
+		move 100
+	@gripper
+		grip
+	@arm
+		move 55
+		move 10
+	@head
+		rotate 0
+	@head move 0
+
+return left
+	@head move 0
+	@head uturn
+	@head uturn
+	@bot uturn
+	@bot move +10
+	@bot move +10
+	@torso move +20
+	@torso move +20
+	rotate +20
+	@torso move +20
+	@bot move +10
+	@arm move 50
+	@arm move 100
+	@gripper ungrip
+
+goto take box
+	goto rack
+	take box
+
+transport box
+	goto take box
+	return left

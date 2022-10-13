@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="5cm" height="3cm"  viewBox="0 0 600 300"
+     xmlns="http://www.w3.org/2000/svg" version="1.1"
+     xmlns:xlink="http://www.w3.org/1999/xlink" >
+<rect id="fond" width="600" height="300" x="0" y="0" fill="lightblue" stroke="black" />
+<circle id="obj1" r="30" cx="50" cy="50" fill="orange" />
+<rect id="obj2" width="60" height="60" x="50" y="150" fill="black" />
+
+  <animate 
+    xlink:href="#obj1"
+    attributeName="cx"
+    from="50"
+    to="450" 
+    dur="1s"
+    begin="1s"
+    fill="freeze"
+  />
+  <animate 
+    xlink:href="#obj2"
+    attributeName="x"
+    from="50"
+    to="450" 
+    dur="1s"
+    begin="1s"
+    fill="freeze"
+    id="anim2"
+  />
+  <animate 
+    xlink:href="#obj2"
+    attributeName="x"
+    from="450"
+    to="500" 
+    dur="1s"
+    begin="anim2.end"
+    fill="freeze"
+  />
+</svg>
